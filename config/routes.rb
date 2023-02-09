@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   #impostare pages/home come pagina principale collegandomi
   root 'pages#home'
 
